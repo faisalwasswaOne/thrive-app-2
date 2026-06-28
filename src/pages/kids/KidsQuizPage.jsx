@@ -62,8 +62,13 @@ export default function KidsQuizPage() {
               Try Again
             </Button>
           )}
+          {finalPassed && (
+            <Button variant="primary" onClick={() => navigate(`/kids/${ageGroup}/lessons/${quiz.lessonId}`)}>
+              ← Back to Lesson
+            </Button>
+          )}
           <Button variant="ghost" onClick={() => navigate(`/kids/${ageGroup}/quizzes`)}>
-            Back to Quizzes
+            All Quizzes
           </Button>
         </div>
       </div>

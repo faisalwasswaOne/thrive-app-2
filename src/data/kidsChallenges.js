@@ -46,7 +46,7 @@ export const challenges = {
     { text: 'Learn one historical fact about Black economic power (Black Wall Street, Freedman\'s Bank, etc.) and share it.', category: 'identity', emoji: '✊' },
     { text: 'Complete all your homework or assignments before doing anything recreational today.', category: 'responsibility', emoji: '📝' },
     { text: 'Ask an adult in your life about a time they failed and what they learned from it.', category: 'wisdom', emoji: '🎓' },
-    { text: 'Set a savings goal. Put aside whatever you can — even a dollar — toward it today.', category: 'economics', emoji: '💵' },
+    { text: 'Set a savings goal. Put aside whatever you can — even a pound — toward it today.', category: 'economics', emoji: '💰' },
     { text: 'Identify one habit you have that is hurting you and name it out loud or in writing.', category: 'growth', emoji: '🔄' },
     { text: 'Do something for your home that nobody asked you to do — clean, cook, fix something.', category: 'responsibility', emoji: '🏡' },
     { text: 'Find one person who does work you admire and look up their story. What did they sacrifice to get there?', category: 'future', emoji: '🚀' },

@@ -9,15 +9,15 @@ export const lessons = [
     readingMinutes: 3,
     theme: 'identity',
     bookSource: 'kunjufu',
-    content: `A long, long time ago — way before your grandparents, and their grandparents, and even their grandparents — your ancestors lived in Africa. They were kings, farmers, mathematicians, all types. They were queens, scientists, artists, husbands, wives and builders.
+    content: `A long, long time ago — way before your grandparents, and their grandparents, and even their grandparents — your ancestors lived in Africa. They were kings, farmers, mathematicians, all types of people. They were queens, scientists, artists, farmers, and builders.
 
-They built the pyramids in Egypt — giant stone triangles so tall and so perfect that people are still trying to figure out exactly how they did it. They started some of the first universities in the world. They discovered medicine and maths and the study of stars.
+They built the pyramids in Egypt — giant stone triangles so tall and so perfect that people are still trying to figure out exactly how they did it. They started some of the first universities in the world. They discovered medicine and math and the study of stars.
 
 Your ancestors were powerful, wise, and creative people.
 
-When people try to make you feel like ashamed of who you are, they are lying. Your history is one of the most incredible stories in all of human history.
+When people try to make you feel ashamed of who you are, they are lying. Your history is one of the most incredible stories in all of human history.
 
-Your story started a very long time ago and you started as royalty — and that royal blood is still inside you.
+You did not start in slavery. You did not start in poverty. You started as royalty — and that royal blood is still inside you.
 
 What does royalty mean today? It means carrying yourself with dignity. It means treating others with respect. It means knowing who you are and where you come from, even when others try to make you forget.
 
@@ -37,7 +37,7 @@ You are not just a kid. You are the descendant of greatness. And you have greatn
 
 Every single time you learn something new — a new word, a new skill, a new idea — your brain actually grows! Tiny connections inside your brain get stronger, like muscles when you exercise.
 
-When you read a book, your brain grows. When you solve a maths problem, your brain grows. When you listen carefully to someone talking, your brain grows. Even when you play — especially when you play — your brain is learning and growing.
+When you read a book, your brain grows. When you solve a math problem, your brain grows. When you listen carefully to someone talking, your brain grows. Even when you play — especially when you play — your brain is learning and growing.
 
 Some people try to act like being smart is not cool. But here is the truth: every single thing you enjoy — video games, sports, music, food, art — was made by someone who used their brain to create it. Smart people make the world.
 
@@ -135,7 +135,7 @@ The world needs more of that kind of friend. Be that person.`,
     readingMinutes: 3,
     theme: 'education',
     bookSource: 'kunjufu',
-    content: `In the old days — many, many years ago — it was actually against the law to teach Black people to read. Do you know why?
+    content: `In the old days — many, many years ago — it was actually against the law to teach some people to read, for example Black people in the American South were banned from reading and ruling elites in the 18th and 19th century Europe opnely argued against educating the non wealthy people. Do you know why?
 
 Because the people in charge knew that education is power. A person who can read can learn anything. A person who can learn anything can become anything. A person who can become anything is very hard to control.
 
@@ -227,7 +227,7 @@ Claudette Colvin was just 15 years old when she refused to give up her seat on a
 
 Frederick Douglass was born into slavery and escaped to freedom. He then became one of the most powerful writers and speakers in American history, helping to end slavery itself.
 
-These are your people. This is your family tree — not of blood, but of legacy.
+These are your people, a very small example and there are many more. This is your family tree — not of blood, but of legacy.
 
 You come from a long line of greatness. Now it is your turn.`,
     completionMessage: 'Incredible! You just learned about real-life superheroes. Which one inspired you the most? 🦅',
@@ -266,12 +266,12 @@ Keep asking that question, and you will find your answer.`,
     id: 'pre-les-1',
     ageGroupId: 'preteen',
     order: 1,
-    title: 'The Fourth Grade Trap (And How to Escape It)',
+    title: 'The Year 5 Disengagement Trap (And How to Escape It)',
     emoji: '🔓',
     readingMinutes: 5,
     theme: 'education',
     bookSource: 'kunjufu',
-    content: `Something happens to a lot of Black boys around 4th grade.
+    content: `Something happens to a lot of Black boys around Year 5.
 
 School starts to feel less exciting. Friends start saying school is not cool. Being smart starts to feel risky — like it might cost you popularity or respect. Some teachers start treating you like a problem to be managed rather than a student to be taught.
 
@@ -286,7 +286,7 @@ Know the trap exists. Just naming it gives you power over it.
 Stay connected to adults who believe in you — even when your friends make that feel embarrassing.
 Make a conscious decision about your identity: are you a person who learns and grows? Or are you going to let other people's comfort decide who you become?
 
-The boys who walk out of 4th grade still curious, still pushing, still reading — they are the ones who change the world later.
+The boys who walk out of Year 5 still curious, still pushing, still reading — they are the ones who change the world later.
 
 Be one of those boys.`,
     completionMessage: 'You just named the trap. That means you can walk right past it. Keep going! 🔓',
@@ -555,7 +555,7 @@ Your future is not already decided. You are deciding it. Right now. Today.`,
     content: `Jawanza Kunjufu uses a powerful word in the title of his book: conspiracy. He is not talking about a secret meeting where evil people plan your downfall. He is talking about something more insidious than that — a system that produces predictable outcomes through accumulated, institutionalized practices, even without conscious intent.
 
 Here are some facts about that system:
-- Black males make up about 6% of the U.S. population but over 40% of the prison population.
+- Black males make up about 6% of the US population but over 40% of the prison population in the US.
 - Black boys are placed in special education at dramatically higher rates than their white peers, often not because they have more learning disabilities but because teachers do not know how to engage them.
 - Studies show that teachers call on Black male students less, grade them more harshly, and suspend them for behavior that does not result in suspension for white students.
 - Only about 1% of teachers are Black men — a deliberate scarcity, since Black male teachers dramatically improve outcomes for Black boys.

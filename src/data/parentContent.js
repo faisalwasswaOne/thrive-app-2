@@ -31,7 +31,7 @@ export const chapters = [
     summary:
       'Kunjufu establishes that the challenges facing Black boys are not random or accidental — they are the predictable result of systemic racism embedded in education, law enforcement, media, and economics. Understanding this is the first act of resistance.',
     keyPoints: [
-      'Black boys enter school enthusiastic and trusting; by 4th grade many have been pushed into disengagement by a system that does not affirm their identity or learning style.',
+      'Black boys enter school enthusiastic and trusting; by around Year 5 many have been pushed into disengagement by a system that does not affirm their identity or learning style.',
       'Institutional racism operates through low teacher expectations, special-education overplacement, media images that criminalize Black masculinity, and economic exclusion.',
       'Only 1–1.2% of teachers are African American males, yet research shows Black male teachers dramatically improve outcomes for Black boys — their absence is not accidental.',
     ],

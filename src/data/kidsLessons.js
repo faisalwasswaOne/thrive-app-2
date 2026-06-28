@@ -9,15 +9,15 @@ export const lessons = [
     readingMinutes: 3,
     theme: 'identity',
     bookSource: 'kunjufu',
-    content: `A long, long time ago — way before your grandparents, and their grandparents, and even their grandparents — your ancestors lived in Africa. They were not poor or helpless. They were kings, queens, scientists, artists, farmers, and builders.
+    content: `A long, long time ago — way before your grandparents, and their grandparents, and even their grandparents — your ancestors lived in Africa. They were kings, farmers, mathematicians, all types. They were queens, scientists, artists, husbands, wives and builders.
 
-They built the pyramids in Egypt — giant stone triangles so tall and so perfect that people are still trying to figure out exactly how they did it. They started some of the first universities in the world. They discovered medicine and math and the study of stars.
+They built the pyramids in Egypt — giant stone triangles so tall and so perfect that people are still trying to figure out exactly how they did it. They started some of the first universities in the world. They discovered medicine and maths and the study of stars.
 
 Your ancestors were powerful, wise, and creative people.
 
-When people try to make you feel like being Black is something to be ashamed of, they are lying. Your history is one of the most incredible stories in all of human history.
+When people try to make you feel like ashamed of who you are, they are lying. Your history is one of the most incredible stories in all of human history.
 
-You did not start in slavery. You did not start in poverty. You started as royalty — and that royal blood is still inside you.
+Your story started a very long time ago and you started as royalty — and that royal blood is still inside you.
 
 What does royalty mean today? It means carrying yourself with dignity. It means treating others with respect. It means knowing who you are and where you come from, even when others try to make you forget.
 
@@ -37,7 +37,7 @@ You are not just a kid. You are the descendant of greatness. And you have greatn
 
 Every single time you learn something new — a new word, a new skill, a new idea — your brain actually grows! Tiny connections inside your brain get stronger, like muscles when you exercise.
 
-When you read a book, your brain grows. When you solve a math problem, your brain grows. When you listen carefully to someone talking, your brain grows. Even when you play — especially when you play — your brain is learning and growing.
+When you read a book, your brain grows. When you solve a maths problem, your brain grows. When you listen carefully to someone talking, your brain grows. Even when you play — especially when you play — your brain is learning and growing.
 
 Some people try to act like being smart is not cool. But here is the truth: every single thing you enjoy — video games, sports, music, food, art — was made by someone who used their brain to create it. Smart people make the world.
 

@@ -271,13 +271,13 @@ Keep asking that question, and you will find your answer.`,
     readingMinutes: 5,
     theme: 'education',
     bookSource: 'kunjufu',
-    content: `Something happens to a lot of Black boys around Year 5.
+    content: `Something happens to a lot of boys around Year 5.
 
 School starts to feel less exciting. Friends start saying school is not cool. Being smart starts to feel risky — like it might cost you popularity or respect. Some teachers start treating you like a problem to be managed rather than a student to be taught.
 
-Researcher Jawanza Kunjufu studied this pattern and gave it a name: the Fourth Grade Failure Syndrome.
+Researcher Jawanza Kunjufu studied this pattern in the UK and gave it a name: the Fourth Grade Failure Syndrome, in the UK they sometimes call it "Key Stage 2 Drop-off".
 
-It is not your fault that this pattern exists. It exists because the school system was not designed with Black boys in mind. Because some teachers have low expectations that quietly crush enthusiasm. Because the peer culture at this age shifts in ways that can pull you away from learning.
+It is not your fault that this pattern exists. It exists because the school system was not designed in the right way. Because some teachers have low expectations that quietly crush enthusiasm. Because the peer culture at this age shifts in ways that can pull you away from learning.
 
 But here is what you need to know: the trap is real, but it is not inescapable. Millions of Black men before you saw the trap and walked right past it. They refused to let someone else's low expectations become their story.
 
@@ -308,7 +308,7 @@ But here is the danger: some of the things people do to belong are not worth the
 
 Peer pressure does not always look like someone holding a gun to your head and saying "do this bad thing." Usually it is quieter than that. It is everyone laughing at something and you pretending to laugh too even though you know it is wrong. It is someone saying "you scared?" and you doing something stupid to prove you are not. It is slowly, quietly starting to act like whoever your crew wants you to be instead of who you actually are.
 
-Kunjufu points out that the street — dealers, gangs, older boys — spend more time per week trying to influence boys your age than parents and teachers combined. They know what they are doing. They offer brotherhood, belonging, and status.
+Kunjufu points out that sometimes in the US, the area — dealers, gangs, older boys — spend more time per week trying to influence boys your age than parents and teachers combined. In the UK, this could be the local group of friends. Sometimes these "friends" know what they are doing, sometimes they don't. They offer brotherhood, belonging, and status.
 
 You deserve belonging. But you deserve real belonging — with people who want you to grow, not just people who want you to be useful to them.
 
@@ -325,26 +325,30 @@ You get to decide who you become. Do not let the crowd decide for you.`,
     ageGroupId: 'preteen',
     order: 3,
     title: 'Your History Is Your Power',
-    emoji: '✊',
+    emoji: '✊🏾',
     readingMinutes: 5,
     theme: 'identity',
     bookSource: 'kunjufu',
-    content: `There is a reason that, for most of American history, it was illegal to teach enslaved Black people to read. And there is a reason that when Black communities built thriving towns — like Greenwood in Tulsa, Oklahoma, called "Black Wall Street" — they were violently destroyed.
+    content: `There is a reason that, in one of the most powerful countries, the US for most of its history, made it illegal to teach Black people to read. And there is a reason that when these Black communities in the US built thriving towns — like Greenwood in Tulsa, Oklahoma, called "Black Wall Street" — they were violently destroyed.
 
-The reason is simple: an educated Black person who knows their history is someone who cannot be controlled.
+Now its true that the US is the not the same as the UK, or Sweden or France, but there are similar experiences in other countries. 
 
-Your history is not just slavery. Slavery was one chapter — and even in that chapter, there was resistance, ingenuity, and survival that defies imagination.
+The reason is simple: an educated person, especially an educated Black person who knows their history is someone who knows their worth.
+
+Unfortunately, Black people have suffered from slavery, but other people have also suffered from this terrible institution. In fact the word "slave" comes from the Latin "sclavus," meaning "a person from the land of the Slavs"- regions that make up modern-day Ukraine, Poland, Belarus, and Slovakia. 
+
+Slavery was one chapter — and even in that chapter, there was resistance, ingenuity, and survival that defies imagination.
 
 Your history starts in Africa, where human civilization began. Where the first scientists, mathematicians, and philosophers walked. Where empires were built that rivaled anything in Europe.
 
-Your history includes Toussaint-Louverture, who led the only successful slave rebellion in history and founded the nation of Haiti. It includes Frederick Douglass, who used words as weapons for freedom. It includes Ida B. Wells, who at age 20 started fighting lynching with journalism and facts. It includes Marcus Garvey, who built an international movement for Black self-determination. It includes Malcolm X, who told the truth about America in a way no one had dared to before.
+Your history includes Toussaint-Louverture, who led the only successful slave rebellion in history and founded the nation of Haiti. It includes Frederick Douglass, who used words as weapons for freedom. It includes Ida B. Wells, who at age 20 started fighting lynching with journalism and facts. It includes Marcus Garvey, who built an international movement for Black self-determination. It includes Malcolm X, who told the truth about the US in a way no one had dared to before.
 
-These are not just historical figures. They are your people. They survived things that should have broken them and they changed the world anyway.
+These are not just historical figures. They are part of your story. They survived things that should have broken them and they changed the world anyway.
 
-When you know that — really know it, in your bones — nobody can tell you that you are less than.
+When you know that — really know it, in your bones — nobody can tell you any "funnyness".
 
 Learn your history. It will hold you up.`,
-    completionMessage: 'Your history is your foundation. Nobody can take that from you. 👊',
+    completionMessage: 'Your history is your foundation. Nobody can take that from you. 👊🏾',
   },
   {
     id: 'pre-les-4',
@@ -456,7 +460,7 @@ If your father is not around, or is around but not really present, you still hav
 
 That person does not have to be your biological father. It can be an uncle, a grandfather, a coach, a pastor, an older brother, or a mentor. What matters is that they are present, trustworthy, and genuinely invested in you — not just in what you can do for them.
 
-Biddulph says this clearly: boys without male role models do not stop needing them. They find them somewhere. The street offers men with money, status, and a clear code of behavior. Those men will recruit you if you let them.
+Biddulph says this clearly: boys without male role models do not stop needing them. They find them somewhere. The local area offers men with money, status, and a clear code of behavior. Those men will bring you in "recruit" you if you let them.
 
 The better move is to be intentional: find men of character who reflect who you want to become. Study them. Ask them questions. Let them into your life.
 
@@ -484,9 +488,11 @@ Here is where to start:
 Save something from every dollar you get. Even a small amount. The habit matters more than the amount.
 Learn the difference between things that make you money (assets) and things that cost you money (liabilities). Most "cool" stuff is a liability.
 Know what a bank account, interest, and investing mean. Start learning now.
-Support Black-owned businesses. Your spending is a vote.
+Support your local businesses, in any way you can, give them feedback if you have it. Your interest is a vote.
 
-Money knowledge is power. And it is something you can start building right now.`,
+Money knowledge is power. And it is something you can start building right now. 
+
+With anything you buy ask yourself what will this do for me, and importantly who made it and who benefits from it. That is how you start thinking like a person who builds wealth, not just spends it.`,
     completionMessage: 'Smart with money = more freedom. You are already ahead of most people for learning this now. 💰',
   },
   {

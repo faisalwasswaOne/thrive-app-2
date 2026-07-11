@@ -2,7 +2,55 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import Button from '../../components/ui/Button'
 import Badge from '../../components/ui/Badge'
+import ActionGuide from '../../components/parent/ActionGuide'
 import { chapters, books, themes, ageStages } from '../../data/parentContent'
+import { actionGuides } from '../../data/actionGuides'
+
+function ActionStepsList({ actionItems }) {
+  const [expanded, setExpanded] = useState(() => new Set())
+
+  const toggle = i => {
+    setExpanded(prev => {
+      const next = new Set(prev)
+      next.has(i) ? next.delete(i) : next.add(i)
+      return next
+    })
+  }
+
+  return (
+    <div className="bg-gold-300 rounded-xl p-6">
+      <h2 className="font-heading text-lg font-bold text-brown-900 mb-4">Action Steps for Parents</h2>
+      <ul className="space-y-3">
+        {actionItems.map((item, i) => {
+          const text = typeof item === 'string' ? item : item.text
+          const guideId = typeof item === 'string' ? null : item.guideId
+          const guide = guideId ? actionGuides[guideId] : null
+          const isExpanded = expanded.has(i)
+
+          return (
+            <li key={i}>
+              <div className="flex items-start justify-between gap-3">
+                <div className="flex gap-3">
+                  <span className="text-brown-700 font-bold flex-shrink-0 mt-0.5">→</span>
+                  <p className="text-brown-900 leading-relaxed">{text}</p>
+                </div>
+                {guide && (
+                  <button
+                    onClick={() => toggle(i)}
+                    className="flex-shrink-0 inline-flex items-center gap-1 bg-brown-800 hover:bg-brown-700 text-cream-50 text-xs font-semibold px-3 py-1.5 rounded-full transition-colors"
+                  >
+                    {isExpanded ? 'Hide' : '💡 How to'}
+                  </button>
+                )}
+              </div>
+              {guide && isExpanded && <ActionGuide guide={guide} />}
+            </li>
+          )
+        })}
+      </ul>
+    </div>
+  )
+}
 
 export default function ParentChapterDetail() {
   const { bookId, chapterId } = useParams()
@@ -87,17 +135,7 @@ export default function ParentChapterDetail() {
           </div>
 
           {/* Action Items */}
-          <div className="bg-gold-300 rounded-xl p-6">
-            <h2 className="font-heading text-lg font-bold text-brown-900 mb-4">Action Steps for Parents</h2>
-            <ul className="space-y-3">
-              {chapter.actionItems.map((item, i) => (
-                <li key={i} className="flex gap-3">
-                  <span className="text-brown-700 font-bold flex-shrink-0 mt-0.5">→</span>
-                  <p className="text-brown-900 leading-relaxed">{item}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <ActionStepsList actionItems={chapter.actionItems} />
 
           {/* Themes */}
           {chapterThemes.length > 0 && (
@@ -144,17 +182,7 @@ export default function ParentChapterDetail() {
           </div>
 
           {/* Action Items */}
-          <div className="bg-gold-300 rounded-xl p-6">
-            <h2 className="font-heading text-lg font-bold text-brown-900 mb-4">Action Steps for Parents</h2>
-            <ul className="space-y-3">
-              {chapter.actionItems.map((item, i) => (
-                <li key={i} className="flex gap-3">
-                  <span className="text-brown-700 font-bold flex-shrink-0 mt-0.5">→</span>
-                  <p className="text-brown-900 leading-relaxed">{item}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
+          <ActionStepsList actionItems={chapter.actionItems} />
         </div>
       )}
     </div>

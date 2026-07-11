@@ -40,9 +40,18 @@ export const chapters = [
       'In the US, only 1–1.2% of teachers are African American males, yet research shows Black male teachers dramatically improve outcomes for Black boys — their absence is not accidental.',
     ],
     actionItems: [
-      'Name what your son is encountering — give the systemic forces a name so he doesn\'t internalize them as personal failure.',
-      'Research the demographics of discipline, special education, and gifted-program referrals at his specific school.',
-      'Build a network of Black men around your son before he needs them — coaches, if you feel like it worthy spiritual leaders, uncles, mentors.',
+      {
+        text: 'Name what your son is encountering — give the systemic forces a name so he doesn\'t internalize them as personal failure.',
+        guideId: 'naming-the-system',
+      },
+      {
+        text: 'Research the demographics of discipline, special education, and gifted-program referrals at his specific school.',
+        guideId: 'school-data-research',
+      },
+      {
+        text: 'Build a network of Black men around your son before he needs them — coaches, if you feel like it worthy spiritual leaders, uncles, mentors.',
+        guideId: 'building-a-mens-network',
+      },
     ],
     fullContent:
       'Kunjufu opens by documenting the stark statistical reality: Black males are disproportionately placed in special education (85% of placements), suspended, \
@@ -70,9 +79,18 @@ export const chapters = [
       'Kunjufu identifies seven barometers to monitor: spirituality, racial awareness, scholarship, school performance, self-esteem, peer pressure resistance, and respect/responsibility.',
     ],
     actionItems: [
-      'Review your son\'s reading level, grades, and teacher feedback every quarter — not just at report card time.',
-      'Know his friends by name, meet their parents, and be present in the spaces where peer culture forms.',
-      'Advocate directly and specifically for Black male teachers in his primary grade classrooms — this single factor has outsized impact.',
+      {
+        text: 'Review your son\'s reading level, grades, and teacher feedback every quarter — not just at report card time.',
+        guideId: 'quarterly-school-check-ins',
+      },
+      {
+        text: 'Know his friends by name, meet their parents, and be present in the spaces where peer culture forms.',
+        guideId: 'knowing-his-peer-world',
+      },
+      {
+        text: 'Advocate directly and specifically for Black male teachers in his primary grade classrooms — this single factor has outsized impact.',
+        guideId: 'advocating-for-black-male-teachers',
+      },
     ],
     fullContent:
       'Kunjufu presents data from 14 of 20 sampled Black boys showing massive reading score decline between 3rd and 7th grade (Year 4 - Year 8). \
@@ -100,9 +118,18 @@ export const chapters = [
       'Rites of Passage programs (ages 9–19) provide structured, community-held transitions from boyhood to manhood, giving boys the identity and belonging the street otherwise provides.',
     ],
     actionItems: [
-      'Audit your home\'s messages about manhood: what does your son hear and see about how men should feel and behave?',
-      'Find or build a Rites of Passage program in your community — Kunjufu\'s SETCLAE curriculum is one model.',
-      'Study the Nguzo Saba (seven principles of Kwanzaa: Unity, Self-Determination, Collective Work, Cooperative Economics, Purpose, Creativity, Faith) together as a family.',
+      {
+        text: 'Audit your home\'s messages about manhood: what does your son hear and see about how men should feel and behave?',
+        guideId: 'manhood-audit',
+      },
+      {
+        text: 'Find or build a Rites of Passage program in your community — Kunjufu\'s SETCLAE curriculum is one model.',
+        guideId: 'rites-of-passage-uk',
+      },
+      {
+        text: 'Study the Nguzo Saba (seven principles of Kwanzaa: Unity, Self-Determination, Collective Work, Cooperative Economics, Purpose, Creativity, Faith) together as a family.',
+        guideId: 'nguzo-saba-family-practice',
+      },
     ],
     fullContent:
       'Kunjufu traces the roots of toxic masculinity in Black male socialization. The process he calls "male seasoning" begins early: \
@@ -131,9 +158,18 @@ export const chapters = [
       'Shock treatment — intentional, supervised exposure to the realities of prison, drug addiction, and premature death — can be a powerful deterrent when done as education, not punishment.',
     ],
     actionItems: [
-      'Name three men in your extended network and assign them specific roles in your son\'s life this year.',
-      'Start economic literacy early: open a savings account with your son, introduce cooperative economics, teach basic investing.',
-      'Engage your church, mosque, or community organization to provide structured mentoring — if none exists, build one.',
+      {
+        text: 'Name three men in your extended network and assign them specific roles in your son\'s life this year.',
+        guideId: 'mens-roles',
+      },
+      {
+        text: 'Start economic literacy early: open a savings account with your son, introduce cooperative economics, teach basic investing.',
+        guideId: 'economic-literacy-uk',
+      },
+      {
+        text: 'Engage your church, mosque, or community organization to provide structured mentoring — if none exists, build one.',
+        guideId: 'community-mentoring-structure',
+      },
     ],
     fullContent:
       'Chapter Four is Kunjufu\'s call to collective action. He identifies eleven barriers that prevent adults \
@@ -163,9 +199,18 @@ export const chapters = [
       'Boys need to be seen, known, and loved by specific adults — not just "parents" in the abstract. The quality and depth of those relationships is what matters.',
     ],
     actionItems: [
-      'Audit how much truly one-on-one time you spend with your son each week — not in the same room, but actively present and engaged with him specifically.',
-      'Reframe energy and risk-taking as developmental signals, not behavioral problems to be suppressed.',
-      'Ask your son one genuine question today about something he cares about — and listen without redirecting to what you want him to care about.',
+      {
+        text: 'Audit how much truly one-on-one time you spend with your son each week — not in the same room, but actively present and engaged with him specifically.',
+        guideId: 'time-audit',
+      },
+      {
+        text: 'Reframe energy and risk-taking as developmental signals, not behavioral problems to be suppressed.',
+        guideId: 'reframe-energy-risk',
+      },
+      {
+        text: 'Ask your son one genuine question today about something he cares about — and listen without redirecting to what you want him to care about.',
+        guideId: 'genuine-question-listening',
+      },
     ],
     fullContent:
       'Biddulph opens with the statistics that motivated his research: boys are dramatically more likely than girls to die young, to struggle in school, \
@@ -192,9 +237,18 @@ export const chapters = [
       'Stage 3 (14+): The "Mentor Years" — boys need a wider circle of trusted adults beyond their parents. Coaches, uncles, teachers, and community elders become critical scaffolding.',
     ],
     actionItems: [
-      'Identify which stage your son is in and honestly assess whether the right relationships are in place.',
-      'If your son is in Stage 2 and his father is absent or disengaged, begin actively recruiting a trusted male figure to fill that role — a coach, uncle, or mentor.',
-      'If your son is approaching Stage 3, begin building his mentorship circle before he turns 14 — not after he\'s already struggling.',
+      {
+        text: 'Identify which stage your son is in and honestly assess whether the right relationships are in place.',
+        guideId: 'identify-his-stage',
+      },
+      {
+        text: 'If your son is in Stage 2 and his father is absent or disengaged, begin actively recruiting a trusted male figure to fill that role — a coach, uncle, or mentor.',
+        guideId: 'recruiting-a-father-figure',
+      },
+      {
+        text: 'If your son is approaching Stage 3, begin building his mentorship circle before he turns 14 — not after he\'s already struggling.',
+        guideId: 'building-mentor-circle-early',
+      },
     ],
     fullContent:
       'Biddulph\'s three-stage framework is the organizing spine of the entire book. In Stage 1, the mother\'s warmth and responsiveness \
@@ -222,9 +276,18 @@ export const chapters = [
       'Channeling testosterone into structured physical activity, competitive sports, martial arts, outdoor work, and purposeful challenge is the most effective management strategy.',
     ],
     actionItems: [
-      'Ensure your son has vigorous physical activity every single day — not as a reward, but as a biological need equivalent to food and sleep.',
-      'During the 11–14 surge, increase structure and clear expectations rather than loosening them, which creates anxiety.',
-      'Treat risk-taking as something to be channeled, not eliminated — find legitimate outlets (martial arts, rock climbing, entrepreneurship) rather than just saying no.',
+      {
+        text: 'Ensure your son has vigorous physical activity every single day — not as a reward, but as a biological need equivalent to food and sleep.',
+        guideId: 'daily-physical-activity',
+      },
+      {
+        text: 'During the 11–14 surge, increase structure and clear expectations rather than loosening them, which creates anxiety.',
+        guideId: 'structure-during-surge',
+      },
+      {
+        text: 'Treat risk-taking as something to be channeled, not eliminated — find legitimate outlets (martial arts, rock climbing, entrepreneurship) rather than just saying no.',
+        guideId: 'channeling-risk-taking',
+      },
     ],
     fullContent:
       'Biddulph walks through the testosterone timeline in detail. The newborn surge (a hangover from the womb) makes \
@@ -252,9 +315,18 @@ export const chapters = [
       'Boys mature about 18 months behind girls neurologically, which means starting formal schooling too early (before age 6–7) can create lasting disadvantages.',
     ],
     actionItems: [
-      'Have your most important conversations with your son while doing something together — a walk, a drive, cooking a meal. Don\'t sit him down and look him in the eye.',
-      'If his school starts academic pressure before age 6, advocate for more play-based learning — his brain is not ready for early formalization.',
-      'Read together. Boys who read with engaged adults develop the emotional and language processing that the male brain needs extra support building.',
+      {
+        text: 'Have your most important conversations with your son while doing something together — a walk, a drive, cooking a meal. Don\'t sit him down and look him in the eye.',
+        guideId: 'question-prompts',
+      },
+      {
+        text: 'If his school starts academic pressure before age 6, advocate for more play-based learning — his brain is not ready for early formalization.',
+        guideId: 'advocating-play-based-learning',
+      },
+      {
+        text: 'Read together. Boys who read with engaged adults develop the emotional and language processing that the male brain needs extra support building.',
+        guideId: 'reading-together',
+      },
     ],
     fullContent:
       "Biddulph draws on neuroscience research to explain what parents and teachers observe intuitively: \
@@ -286,9 +358,18 @@ export const chapters = [
       consistently over years is not a substitute for a father but is genuinely protective.',
     ],
     actionItems: [
-      'Fathers: make a weekly ritual with your son that is just the two of you — fishing, cooking, fixing something, watching a game. Consistency over time is what builds the relationship.',
-      'Dads: tell your son verbally that you love him and are proud of him. Don\'t assume he knows. Say it. This is one of the most powerful things a father can do.',
-      'If father is absent: be honest with your son about why, without demonizing the father, and be intentional about finding men who will invest in him.',
+      {
+        text: 'Fathers: make a weekly ritual with your son that is just the two of you — fishing, cooking, fixing something, watching a game. Consistency over time is what builds the relationship.',
+        guideId: 'weekly-dad-ritual',
+      },
+      {
+        text: 'Dads: tell your son verbally that you love him and are proud of him. Don\'t assume he knows. Say it. This is one of the most powerful things a father can do.',
+        guideId: 'saying-i-love-you',
+      },
+      {
+        text: 'If father is absent: be honest with your son about why, without demonizing the father, and be intentional about finding men who will invest in him.',
+        guideId: 'explaining-absent-father',
+      },
     ],
     fullContent:
       "Biddulph reviews the research on father involvement and it is unambiguous: boys with engaged fathers have better \
@@ -318,9 +399,18 @@ export const chapters = [
       'Mothers teach boys how to treat women — through how they treat themselves, what they model in their relationships, and what they require from their sons in terms of respect.',
     ],
     actionItems: [
-      'Be warm and physically affectionate with your son in the early years — hugs, touch, and comfort are not spoiling, they are building his nervous system.',
-      'As he grows, hold him to the same emotional standards you would hold a daughter: he can express his feelings, he is responsible for his behavior, and empathy is not optional.',
-      'Model self-respect: your son is watching how you allow yourself to be treated. That becomes his template for how women should be treated.',
+      {
+        text: 'Be warm and physically affectionate with your son in the early years — hugs, touch, and comfort are not spoiling, they are building his nervous system.',
+        guideId: 'early-years-affection',
+      },
+      {
+        text: 'As he grows, hold him to the same emotional standards you would hold a daughter: he can express his feelings, he is responsible for his behavior, and empathy is not optional.',
+        guideId: 'same-emotional-standards',
+      },
+      {
+        text: 'Model self-respect: your son is watching how you allow yourself to be treated. That becomes his template for how women should be treated.',
+        guideId: 'modeling-self-respect',
+      },
     ],
     fullContent:
       "Biddulph begins with warmth: mothers are irreplaceable. The security and love built in Stage 1 is the emotional bedrock everything else rests on. \
@@ -349,9 +439,18 @@ export const chapters = [
       'Boys need to hear clearly and repeatedly from trusted adults: consent is non-negotiable, respect for women is mandatory, and their sexuality is a power that requires wisdom.',
     ],
     actionItems: [
-      'Start age-appropriate conversations about bodies, attraction, and relationships early — before puberty, not during it.',
-      'Talk about pornography explicitly: what it is, what it is not, and why it is not a healthy education about real intimacy.',
-      'For boys questioning their sexual orientation: express unconditional love before anything else. Shame kills; acceptance saves lives.',
+      {
+        text: 'Start age-appropriate conversations about bodies, attraction, and relationships early — before puberty, not during it.',
+        guideId: 'age-appropriate-body-talk',
+      },
+      {
+        text: 'Talk about pornography explicitly: what it is, what it is not, and why it is not a healthy education about real intimacy.',
+        guideId: 'talking-about-pornography',
+      },
+      {
+        text: 'For boys questioning their sexual orientation: express unconditional love before anything else. Shame kills; acceptance saves lives.',
+        guideId: 'supporting-questioning-orientation',
+      },
     ],
     fullContent:
       "Biddulph opens with the observation that parents who avoid talking about sexuality don't raise sexually inactive sons — they raise \
@@ -381,9 +480,18 @@ export const chapters = [
       'ADHD is often misdiagnosed in boys who are actually "dad-deficiency disorder" cases — boys without engaged male role models who express their distress through hyperactivity and inattention.',
     ],
     actionItems: [
-      'Visit your son\'s classroom and watch how instruction happens — is it movement-friendly, concrete, and structured? If not, advocate for changes.',
-      'If ADHD is suggested, get a second opinion and evaluate whether father/male-figure involvement has been assessed as a factor.',
-      'Supplement school with boy-friendly learning: martial arts, shop class, cooking, outdoor education, team sports — environments where the male brain thrives.',
+      {
+        text: 'Visit your son\'s classroom and watch how instruction happens — is it movement-friendly, concrete, and structured? If not, advocate for changes.',
+        guideId: 'classroom-visit-checklist',
+      },
+      {
+        text: 'If ADHD is suggested, get a second opinion and evaluate whether father/male-figure involvement has been assessed as a factor.',
+        guideId: 'adhd-second-opinion',
+      },
+      {
+        text: 'Supplement school with boy-friendly learning: martial arts, shop class, cooking, outdoor education, team sports — environments where the male brain thrives.',
+        guideId: 'boy-friendly-learning-outlets',
+      },
     ],
     fullContent:
       "Biddulph reviews the educational research and finds consistent patterns: boys are underperforming girls in most Western countries, \
@@ -414,9 +522,18 @@ export const chapters = [
       individuals on their team, and use sport as a vehicle for character development.',
     ],
     actionItems: [
-      'Evaluate the adult culture around your son\'s sport: are the coaches people of character? Is winning treated as the only goal?',
-      'Keep your son in sport but don\'t specialize too early — variety builds broader athletic literacy and reduces overuse injury and burnout.',
-      'Model good sportsmanship yourself: how you behave at his games is what he absorbs, not what you tell him about how to behave.',
+      {
+        text: 'Evaluate the adult culture around your son\'s sport: are the coaches people of character? Is winning treated as the only goal?',
+        guideId: 'evaluating-coach-culture',
+      },
+      {
+        text: 'Keep your son in sport but don\'t specialize too early — variety builds broader athletic literacy and reduces overuse injury and burnout.',
+        guideId: 'avoiding-early-specialization',
+      },
+      {
+        text: 'Model good sportsmanship yourself: how you behave at his games is what he absorbs, not what you tell him about how to behave.',
+        guideId: 'modeling-sportsmanship',
+      },
     ],
     fullContent:
       "Biddulph is pro-sport but with clear eyes about the adult problem. The game itself rarely harms boys; the adult culture around it often does. \
@@ -445,9 +562,18 @@ export const chapters = [
       'The teenage years are not the time to start building community support for your son — that infrastructure must be in place before he needs it, ideally by age 12.',
     ],
     actionItems: [
-      'Identify one boy in your broader community — not your own son — who you could invest in as a mentor. Make the call this week.',
-      'Talk to your church, mosque, or community organization about starting a structured mentoring or Rites of Passage program if one doesn\'t exist.',
-      'Build community intentionally: invite your son\'s friends into your home, know their names, be an anchor for more than one boy.',
+      {
+        text: 'Identify one boy in your broader community — not your own son — who you could invest in as a mentor. Make the call this week.',
+        guideId: 'becoming-a-mentor',
+      },
+      {
+        text: 'Talk to your church, mosque, or community organization about starting a structured mentoring or Rites of Passage program if one doesn\'t exist.',
+        guideId: 'starting-community-mentoring',
+      },
+      {
+        text: 'Build community intentionally: invite your son\'s friends into your home, know their names, be an anchor for more than one boy.',
+        guideId: 'building-community-intentionally',
+      },
     ],
     fullContent:
       "Biddulph closes with a sociological argument: the nuclear family, by itself, is too small a structure to raise a healthy boy. \

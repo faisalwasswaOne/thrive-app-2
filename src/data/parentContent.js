@@ -65,8 +65,8 @@ export const chapters = [
       'Between ages 9 and 13, many Black boys disengage from school in a measurable, predictable pattern. \
       Kunjufu calls this the Fourth Grade Failure Syndrome and identifies the specific forces that drive it — and the specific interventions that reverse it.',
     keyPoints: [
-      'The decline often begins subtly in 3rd grade: enthusiasm drops, reading scores stall, and the peer culture begins shifting away from academic achievement.',
-      'The "Street Institution" — gangs, dealers, older boys — invests 7 to 24 hours per week in recruiting your son. Parents and teachers may invest only minutes.',
+      'The decline often begins subtly in 3rd grade / Year 4: enthusiasm drops, reading scores stall, and the peer culture begins shifting away from academic achievement.',
+      'The "Street Institution / Local Area" — gangs (local area), dealers, older boys — invests 7 to 24 hours per week in recruiting your son. Parents and teachers may invest only minutes.',
       'Kunjufu identifies seven barometers to monitor: spirituality, racial awareness, scholarship, school performance, self-esteem, peer pressure resistance, and respect/responsibility.',
     ],
     actionItems: [
@@ -75,7 +75,7 @@ export const chapters = [
       'Advocate directly and specifically for Black male teachers in his primary grade classrooms — this single factor has outsized impact.',
     ],
     fullContent:
-      'Kunjufu presents data from 14 of 20 sampled Black boys showing massive reading score decline between 3rd and 7th grade. \
+      'Kunjufu presents data from 14 of 20 sampled Black boys showing massive reading score decline between 3rd and 7th grade (Year 4 - Year 8). \
       He identifies five contributing factors: declining parental involvement, increased peer pressure, decline in nurturance and \
       physical affection toward boys, lowered teacher expectations, and the absence of male teachers. The "Fourth Grade Failure Syndrome" \
       describes the moment — usually between ages 9 and 13 — when the accumulated weight of these factors tips a boy from academic engagement to disengagement. \
@@ -489,7 +489,7 @@ export const ageStages = [
     tagline: 'The pivotal window — presence or absence defines trajectories.',
     chapterIds: ['k-ch1', 'k-ch2', 'k-ch3', 'b-ch2', 'b-ch3', 'b-ch4', 'b-ch5', 'b-ch8', 'b-ch9'],
     keyInsights: [
-      'Fourth grade (ages 9–13) is the most pivotal moment in Black male academic development — monitor the Seven Barometers every quarter.',
+      'Fourth grade / Year 5 (ages 9–13) is the most pivotal moment in Black male academic development — monitor the Seven Barometers every quarter.',
       'Boys at this stage orient toward male figures. Make sure the men in his life are worth orienting toward.',
       'The Street Institution invests more time per week in recruiting your son than most schools or families. Counter that with intentional time.',
       'Physical activity is not optional at this stage — testosterone surges demand an outlet.',
